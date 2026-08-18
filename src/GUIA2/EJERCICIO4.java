@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package ejercicio4;
+package GUIA2;
 import java.util.Scanner;
 /**
  *CREE UNA APLICACION EN JAVA QUE A PARTIR DEL SUELDO DE UN 
