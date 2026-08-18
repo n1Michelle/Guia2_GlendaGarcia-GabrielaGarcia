@@ -9,5 +9,5 @@ package GUIA2;
  * @author HP 450 G5
  */
 public class testCommit {
-    // prueba
+    // prueba test git pull 
 }
