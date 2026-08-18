@@ -22,27 +22,27 @@ public class EJERCICIO4 {
         double sueldo;
         double renta;
         double sueldototal;
-        System.out.println("INGRESE EL SUELDO DEL EMPLEADO");
+        System.out.println("INGRESE EL SUELDO DEL EMPLEADO: ");
         sueldo = mila.nextDouble();
         
         if(sueldo <= 472){
             System.out.println("NO APLICA DESCUENTO DE RENTA");
-            System.out.println("EL SUELDO ES DE" + sueldo);
+            System.out.printf("EL SUELDO ES DE: %.2f\n", sueldo);
         }else if(sueldo <= 895.24){
             renta = ((sueldo - 472.00)* 0.10)+17.67;
             sueldototal=sueldo - renta;
-            System.out.println("LA RENTA ES DE " + renta);
-            System.out.println("EL SUELDO ES DE " + sueldototal);
+            System.out.printf("LA RENTA ES DE: %.2f\n", renta);
+            System.out.printf("EL SUELDO ES DE: %.2f\n", sueldototal);
         }else if(sueldo <= 2038.10){
             renta = ((sueldo - 895.24)* 0.20)+60;
             sueldototal=sueldo - renta;
-            System.out.println("LA RENTA ES DE " + renta);
-            System.out.println("EL SUELDO ES DE " + sueldototal);
+            System.out.printf("LA RENTA ES DE: %.2f\n", renta);
+            System.out.printf("EL SUELDO ES DE: %.2f\n", sueldototal);
         }else{
             renta = ((sueldo - 2038.10) *0.30)+288.57;
             sueldototal=sueldo - renta;
-            System.out.println("LA RENTA ES DE " + renta);
-            System.out.println("EL SUELDO ES DE " + sueldototal);
+            System.out.printf("LA RENTA ES DE: %.2f\n", renta);
+            System.out.printf("EL SUELDO ES DE: %.2f\n", sueldototal);
         }
     }
     

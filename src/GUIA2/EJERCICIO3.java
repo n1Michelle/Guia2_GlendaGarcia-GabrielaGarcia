@@ -20,14 +20,14 @@ public class EJERCICIO3 {
         double cateto2;
         double hipotenusa;
         
-        System.out.println("INGRESE LA MEDIDA DEL CATETO 1");
+        System.out.println("INGRESE LA MEDIDA DEL CATETO 1: ");
         cateto1= mila.nextDouble();
-        System.out.println("INGRESE LA MEDIDA DEL CATETO 2");
+        System.out.println("INGRESE LA MEDIDA DEL CATETO 2: ");
         cateto2= mila.nextDouble();
         
         hipotenusa = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
         
-        System.out.println("LA HIPOTENUSA ES DE: " +hipotenusa);
+        System.out.printf("LA HIPOTENUSA ES DE: %.2f", hipotenusa);
         
     }
     

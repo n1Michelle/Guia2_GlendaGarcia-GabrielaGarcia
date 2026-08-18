@@ -21,9 +21,9 @@ public class EJERCICIO2 {
        double altura;
        double area;
        
-       System.out.println("INGRESE LA BASE DEL RECTANGULO");
+       System.out.println("INGRESE LA BASE DEL RECTANGULO: ");
        base = mila.nextDouble();
-       System.out.println("INGRESE LA ALTURA DEL RECTANGULO");
+       System.out.println("INGRESE LA ALTURA DEL RECTANGULO: ");
        altura = mila.nextDouble();
        
        area = base * altura;

@@ -18,19 +18,19 @@ public class EJERCICIO5 {
         Scanner mila = new Scanner(System.in);
         int numero;
         
-        System.out.println("INGRESE UN NUMERO ENTERO POSITIVO");
+        System.out.println("INGRESE UN NUMERO ENTERO POSITIVO: ");
         numero= mila.nextInt();
         
         if(numero < 0){
-            System.out.println("EL FACTORIAL NO ESTA DEFINIFO PARA NUMERO NEGATIVOS");
+            System.out.println("EL FACTORIAL NO ESTA DEFINIDO PARA NUMERO NEGATIVOS");
         }else{
-            long factorial = 0;
+            long factorial = 1;
             
             for(int i = 1; i<= numero; i++){
                 factorial *=i;
             }
             
-            System.out.println("EL FACTORIAL DE " +numero+ "ES: "+factorial);
+            System.out.println("EL FACTORIAL DE " +numero+ " ES: "+factorial);
         }
     }
     

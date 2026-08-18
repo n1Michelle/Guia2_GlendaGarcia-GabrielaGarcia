@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  *CREE UNA APLICACION EN JAVA QUE IMPRIMA LOS PRIMEROS
  *NUMEROS PRIMOS
- * @author HP 450 G5
+ * @author Michelle Garcia
  */
 public class EJERCICIO6 {
 
@@ -15,9 +15,8 @@ public class EJERCICIO6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner mila = new Scanner(System.in);
         boolean primo;
-        int cantidad = 10;
+        int cantidad = 100;
         int contador = 0;
         int numero = 2;
         int i;
